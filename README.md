@@ -27,19 +27,27 @@ Before running the tests, ensure you have the following installed:
 git clone [https://github.com/APXs-01/IT23640184-ITPM_Assignment_1.git](https://github.com/APXs-01/IT23640184-ITPM_Assignment_1.git)
 cd IT3040_Assignment1_IT23640184
 
-2. Install Dependencies
-Bash
+```
+### 2. Install Dependencies
+```bash
 npm install
 npx playwright install
-3. Run All Tests
+
+```
+### 3. Run All Tests
 To run the tests in headed mode (where you can see the browser open):
 
-Bash
+```bash
 npx playwright test --headed
-Note: To run in headless mode (faster, background execution), simply use: npx playwright test
+Note: To run in headless mode (faster, background execution), 
+simply use: npx playwright test
 
-4. View the Test Report
+```
+
+### 4. View the Test Report
 After the tests complete, generate and view the HTML report:
 
-Bash
+```bash
 npx playwright show-report
+
+```
